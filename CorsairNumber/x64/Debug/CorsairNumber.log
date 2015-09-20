@@ -1,0 +1,23 @@
+﻿La génération a démarré 20/09/2015 16:48:05.
+     1>Projet "D:\Users\Flo\Documents\GitHub\CorsairNumber\CorsairNumber\CorsairNumber.vcxproj" sur le nœud 2 (Build cible(s)).
+     1>ClCompile:
+         D:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\x86_amd64\CL.exe /c /ID:\Users\Flo\Documents\GitHub\CorsairNumber\include /ZI /nologo /W3 /WX- /sdl /Od /D _DEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Yc"stdafx.h" /Fp"x64\Debug\CorsairNumber.pch" /Fo"x64\Debug\\" /Fd"x64\Debug\vc140.pdb" /Gd /TP /errorReport:prompt stdafx.cpp
+         stdafx.cpp
+         D:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\x86_amd64\CL.exe /c /ID:\Users\Flo\Documents\GitHub\CorsairNumber\include /ZI /nologo /W3 /WX- /sdl /Od /D _DEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Yu"stdafx.h" /Fp"x64\Debug\CorsairNumber.pch" /Fo"x64\Debug\\" /Fd"x64\Debug\vc140.pdb" /Gd /TP /errorReport:prompt CorsairNumber.cpp
+         CorsairNumber.cpp
+     1>d:\users\flo\documents\github\corsairnumber\corsairnumber\corsairnumber.cpp(39): warning C4244: 'initialisation' : conversion de 'double' en 'int', perte possible de données
+     1>d:\users\flo\documents\github\corsairnumber\corsairnumber\corsairnumber.cpp(117): warning C4551: liste d'arguments manquante dans l'appel de fonction
+       Link:
+         D:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\x86_amd64\link.exe /ERRORREPORT:PROMPT /OUT:"D:\Users\Flo\Documents\GitHub\CorsairNumber\x64\Debug\CorsairNumber.exe" /INCREMENTAL /NOLOGO /LIBPATH:D:\Users\Flo\Documents\GitHub\CorsairNumber\lib\x64 CUESDK.x64_2013.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /Debug /PDB:"D:\Users\Flo\Documents\GitHub\CorsairNumber\x64\Debug\CorsairNumber.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:\Users\Flo\Documents\GitHub\CorsairNumber\x64\Debug\CorsairNumber.lib" /MACHINE:X64 x64\Debug\CorsairNumber.obj
+         x64\Debug\stdafx.obj
+         CorsairNumber.vcxproj -> D:\Users\Flo\Documents\GitHub\CorsairNumber\x64\Debug\CorsairNumber.exe
+       PostBuildEvent:
+         xcopy  /Y /I  "D:\Users\Flo\Documents\GitHub\CorsairNumber\bin\x64\*" "D:\Users\Flo\Documents\GitHub\CorsairNumber\x64\Debug\"
+         :VCEnd
+         D:\Users\Flo\Documents\GitHub\CorsairNumber\bin\x64\CUESDK.x64_2013.dll
+         1 fichier(s) copié(s)
+     1>Génération du projet "D:\Users\Flo\Documents\GitHub\CorsairNumber\CorsairNumber\CorsairNumber.vcxproj" terminée (Build cible(s)).
+
+La génération a réussi.
+
+Temps écoulé 00:00:02.80

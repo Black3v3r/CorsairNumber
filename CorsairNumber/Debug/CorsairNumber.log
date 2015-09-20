@@ -1,0 +1,22 @@
+﻿La génération a démarré 20/09/2015 10:34:42.
+     1>Projet "d:\Users\Flo\documents\visual studio 2015\Projects\CorsairNumber\CorsairNumber\CorsairNumber.vcxproj" sur le nœud 2 (Build cible(s)).
+     1>ClCompile:
+         D:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\CL.exe /c /I"d:\users\flo\documents\visual studio 2015\Projects\CorsairNumber\include" /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Yc"stdafx.h" /Fp"Debug\CorsairNumber.pch" /Fo"Debug\\" /Fd"Debug\vc140.pdb" /Gd /TP /analyze- /errorReport:prompt stdafx.cpp
+         stdafx.cpp
+         D:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\CL.exe /c /I"d:\users\flo\documents\visual studio 2015\Projects\CorsairNumber\include" /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Yu"stdafx.h" /Fp"Debug\CorsairNumber.pch" /Fo"Debug\\" /Fd"Debug\vc140.pdb" /Gd /TP /analyze- /errorReport:prompt CorsairNumber.cpp
+         CorsairNumber.cpp
+       Link:
+         D:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"d:\users\flo\documents\visual studio 2015\Projects\CorsairNumber\Debug\CorsairNumber.exe" /INCREMENTAL /NOLOGO /LIBPATH:"d:\users\flo\documents\visual studio 2015\Projects\CorsairNumber\lib\x64\\" CUESDK.x64_2013.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /Debug /PDB:"d:\users\flo\documents\visual studio 2015\Projects\CorsairNumber\Debug\CorsairNumber.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"d:\users\flo\documents\visual studio 2015\Projects\CorsairNumber\Debug\CorsairNumber.lib" /MACHINE:X86 Debug\CorsairNumber.obj
+         Debug\stdafx.obj
+     1>CorsairNumber.obj : error LNK2019: symbole externe non résolu __imp__CorsairSetLedsColors référencé dans la fonction "void __cdecl highlightKey(enum CorsairLedId)" (?highlightKey@@YAXW4CorsairLedId@@@Z)
+     1>CorsairNumber.obj : error LNK2019: symbole externe non résolu __imp__CorsairGetLedIdForKeyName référencé dans la fonction _main
+     1>CorsairNumber.obj : error LNK2019: symbole externe non résolu __imp__CorsairRequestControl référencé dans la fonction _main
+     1>CorsairNumber.obj : error LNK2019: symbole externe non résolu __imp__CorsairPerformProtocolHandshake référencé dans la fonction _main
+     1>CorsairNumber.obj : error LNK2019: symbole externe non résolu __imp__CorsairGetLastError référencé dans la fonction _main
+     1>d:\users\flo\documents\visual studio 2015\Projects\CorsairNumber\lib\x64\\CUESDK.x64_2013.lib : warning LNK4272: type d'ordinateur bibliothèque 'x64' en conflit avec le type d'ordinateur cible 'X86'
+     1>d:\users\flo\documents\visual studio 2015\Projects\CorsairNumber\Debug\CorsairNumber.exe : fatal error LNK1120: 5 externes non résolus
+     1>Génération du projet "d:\Users\Flo\documents\visual studio 2015\Projects\CorsairNumber\CorsairNumber\CorsairNumber.vcxproj" terminée (Build cible(s)) -- ÉCHEC.
+
+ÉCHEC de la build.
+
+Temps écoulé 00:00:03.19
